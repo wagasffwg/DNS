@@ -7,7 +7,7 @@ on: https://wagasffwg.wordpress.com
     branches: [ https/wagasffwg.com ]
 
 jobs:build
-  build: wagasffwg.com
+  build: https://wagasffwg.wordpress.com
 
     runs-on: ubuntu-latest
 
@@ -24,3 +24,4 @@ jobs:build
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+https://wagasffwg.wordpress.com
